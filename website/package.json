@@ -1,0 +1,80 @@
+{
+  "name": "react-spa-template",
+  "version": "0.2.0",
+  "description": "React Single Page App template without CRA",
+  "main": "src/index.js",
+  "hompage": "https://ofnullable.github.io/react-spa-template",
+  "repository": "https://github.com/ofnullable/react-spa-template",
+  "author": "ofnullable <ofnullable@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "algolia": "^0.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.40.1",
+    "react-instantsearch-hooks": "^6.46.0",
+    "react-instantsearch-hooks-web": "^6.46.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "algoliasearch": "4.18.0",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "cssnano": "^6.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-sass": "^8.0.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.21",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.2.0",
+    "prettier": "^2.8.7",
+    "react-instantsearch-hooks": "6.46.0",
+    "react-instantsearch-hooks-web": "6.46.0",
+    "reset-css": "^5.0.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "swc-loader": "^0.2.3",
+    "terser-webpack-plugin": "^5.3.7",
+    "url-loader": "^4.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.02%",
+      "not dead",
+      "not op_mini all",
+      "last 3 version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

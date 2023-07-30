@@ -12,9 +12,8 @@ class MongoDB:
     if self.client:
       self.client.close()
 
-  def query_stores(self):
+  def query(self, collection_name):
     try:
-      collection_name = "store_sites"
       collection = self.database_name[collection_name]
       output = collection.find()
       return list(output)

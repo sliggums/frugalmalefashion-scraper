@@ -1,22 +1,8 @@
 {
-  "pendleton.json": {
-    "Title": "description",
-    "Title_URL": "product_url",
-    "View": "image_url",
-    "Price": "original_price",
-    "Price2": "discounted_price"
-  },
-  "ragbone.json": {
-    "Image": "image_url",
-    "bproduct_tilelink_URL": "product_url",
-    "bproduct_tilelink": "description",
-    "Price": "original_price",
-    "Price1": "discounted_price"
-  },
   "mr_porter.json": {
     "Image": "image_url",
     "Field": "product_url",
-    "Price1": "original_price",
+    "Price": "original_price",
     "Price2": "discounted_price",
     "Name": "description"
   },
@@ -34,11 +20,18 @@
     "Money": "discounted_price",
     "Title": "description"
   },
-  "outerknown_full.json": {
+  "outerknown.json": {
     "Info_URL": "product_url",
     "Info": "description",
     "Price1": "original_price",
     "Price3": "discounted_price",
     "Image": "image_url"
+  },
+  "ragbone.json": {
+    "Image": "image_url",
+    "bproduct_tilelink_URL": "product_url",
+    "bproduct_tilelink": "description",
+    "Price": "original_price",
+    "Price1": "discounted_price"
   }
 }
