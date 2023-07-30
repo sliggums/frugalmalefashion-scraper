@@ -1,34 +1,6 @@
-<h1 align="center">🎉 React SPA Template 🎉</h1>
+<h1 align="center">Bragging Bargains Website  </h1>
 
-<p align="center">  
-  <img src="https://img.shields.io/github/license/ofnullable/react-spa-template" />
-  <a href="https://github.com/ofnullable/react-spa-template/issues">
-    <img src="https://img.shields.io/github/issues/ofnullable/react-spa-template" />
-  </a>
-</p>
 
-## An easy-to-use react template
-
-- React Single-Page-Application template without create-react-app
-- Configured with Webpack, Babel, ESLint, Sass, PostCSS and emotion
-- If you need anything else, please contribute or leave an issue!
-
-## Live demo
-
-[https://ofnullable.github.io/react-spa-template](https://ofnullable.github.io/react-spa-template)
-
-## Installation
-
-```shell
-# clone this repository
-$ git clone https://github.com/ofnullable/react-spa-template
-
-# go into template directory
-$ cd react-spa-template
-
-# install dependencies
-$ npm install
-```
 
 ## Commands
 
