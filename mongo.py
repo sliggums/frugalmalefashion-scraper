@@ -21,14 +21,22 @@ class MongoDB:
     except Exception as e:
       print(e)
 
-  def upsert_stores(self, **kwargs):
+  def upsert(self, collection_name, **kwargs):
     try:
-      collection_name = "store_sites"
       collection = self.database_name[collection_name]
       filtered_fields = {k:v for k, v in kwargs.items() if v}
       collection.insert_one(filtered_fields)
     except Exception as e:
       print(e)
+
+  def upsert_item(self, collection_name, item):
+    try:
+      collection = self.database_name[collection_name]
+      filtered_fields = {k:v for k, v in item.items() if v}
+      collection.insert_one(filtered_fields)
+    except Exception as e:
+      print(e)
+      raise e
 
 # if __name__ == "__main__":
 #   db = MongoDB()

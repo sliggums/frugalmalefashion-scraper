@@ -33,7 +33,7 @@ def fetch_all_posts(subreddit_name):
     subdomain = get_subdomain(post.url)
     if post.url and "redd" not in post.url and subdomain not in existing_stores:
       sale_url = post.url if "sale" in post.url or "clearance" in post.url else None
-      db.upsert_stores(url=post.url, sale_url=sale_url, subdomain=subdomain)
+      db.upsert("store_sites", url=post.url, sale_url=sale_url, subdomain=subdomain)
       existing_stores.add(subdomain)
 
 if __name__ == "__main__":
